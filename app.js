@@ -17,7 +17,7 @@ http.createServer(function (req, res) {
       res.end();
     });
   }
-  else if (input == "app.js" || input == "db.js") {
+  else if (input == "app.js" || input == "sqlmanager.js") {
     // Close
     res.writeHead(200, {'Content-Type': 'text/html'});
     res.write("<script>window.close();</script>");
