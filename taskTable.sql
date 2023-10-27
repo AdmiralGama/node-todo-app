@@ -1,0 +1,1 @@
+CREATE TABLE tasks (taskName VARCHAR(100));
